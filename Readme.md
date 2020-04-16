@@ -16,8 +16,9 @@
 ```bash
 # download Selenium 2.37
 $ pip3.6 install -t selenium/python/lib/python3.6/site-packages selenium=2.37
-
+```
 ### Manual Instalation
+```
 # download chrome driver
 $ mkdir chromedriver
 $ cd chromedriver
