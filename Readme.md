@@ -1,6 +1,6 @@
 ### Structure
 ```bash
-── /seleniumLayer/
+── /lambda-selenium-layer/
   ├── /selenium
   │  └──/python/
   │   └── /lib/
@@ -11,11 +11,13 @@
   └── /serverless.yaml
 ```
 
-### Manual Instalation
+
+### For selenium installation
 ```bash
 # download Selenium 2.37
 $ pip3.6 install -t selenium/python/lib/python3.6/site-packages selenium=2.37
 
+### Manual Instalation
 # download chrome driver
 $ mkdir chromedriver
 $ cd chromedriver
@@ -40,3 +42,4 @@ Go to root directory of project
 $ cd seleniumLayer
 $ sls deploy
 ```
+
